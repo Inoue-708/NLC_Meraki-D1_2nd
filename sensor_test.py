@@ -1,7 +1,7 @@
 import sys
 from util.common import *
 
-r=GetSensoratewayInfo("Q3CH-NBE7-H24P")
+r=GetSensoratewayInfo("")
 
 # Check if the request was successful
 if r.status_code == 200:
